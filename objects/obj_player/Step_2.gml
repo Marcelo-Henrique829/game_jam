@@ -4,8 +4,8 @@
 
 #region Sistema de colisão "perfeita" e movimentação até então
 
-	var _hspd = sign(hspd)
-	var _vspd = sign(vspd)
+	var _hspd = sign(hspd) //retorna hspd como 1 -1 ou 0
+	var _vspd = sign(vspd) //retorna vspd como 1 -1 ou 0
 
 
 	repeat(abs(hspd)) //colisão horizntal

@@ -1,9 +1,9 @@
 /// @description Iniciando Variáveis
 
 
-hspd=0;
-vspd=0;
-spd = 0;
+hspd=0; //velocidade horizontal
+vspd=0; //velocidade vertical
+spd = 0;//velocidade
 
-move_direction = 0;
-max_spd = 5;
+move_direction = 0;//direção do movimento
+max_spd = 5; //velocidade maxima

@@ -14,9 +14,9 @@ var _baixo = keyboard_check(ord("S"))
 
 
 #region movimentação
-
-	hspd = lengthdir_x(spd,move_direction)
-	vspd = lengthdir_y(spd,move_direction)
+	
+	hspd = lengthdir_x(spd,move_direction) //velocidade horizontal tem como base a velocidade e a direção
+	vspd = lengthdir_y(spd,move_direction) //velocidade vertical tem como base a velocidade e a direção
 
 	//checando se o usuário está apertando alguma coisa
 	if(_esquerda or _direita or _cima or _baixo)
