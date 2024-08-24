@@ -35,6 +35,7 @@
   "name":"Folclore_Crawler",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
